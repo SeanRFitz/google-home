@@ -1,6 +1,35 @@
+* {
+	font-family: "Open Sans", Georgia, serif;
+}
+
+.header {
+	position: relative;
+	text-align: right;
+	top: 10px;
+}
+
+.header button {
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	height: 25px;
+	width: 70px;
+	margin-right: 10px;
+	background-color: blue;
+	border: 1px solid blue;
+	border-radius: 2px;
+}
+.footer a:link, .header a:link {
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+.header a:link {
+	color: rgba(75, 75, 75, 1);
+}
+
 .footer a:link {
 	color: rgba(100, 100, 100, 1);
-	text-decoration: none;
 }
 
 img {
@@ -28,9 +57,7 @@ input[name="search-bar"] {
 	padding: 5px 14px;
 }
 
-.header {
-	text-align: right;
-}
+
 .footer {
 	position: absolute;
 	bottom: 0;
